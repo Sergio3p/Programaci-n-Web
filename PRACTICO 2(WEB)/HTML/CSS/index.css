@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'MiCaligrafia';
+    src:    url("/FUENTEs/helvetica-neue-55-cufonfonts/HelveticaNeue-Light.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: MiCaligrafia,'HelveticaNeueBold';
+    font-size: 20px;
+    color: white;
+}
+
+body{
+    background-color:rgb(255, 219, 244) ;
+}
+
+.header {
+    background-color: #003333ff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 85px;
+    width: aut;
+    transition: all 0.3s;
+}
+
+/*para dar efecto*/
+.header .logo img:hover{
+    transform: scale(1.2); 
+}
+
+header .nav-links{
+    list-style:none; /*quita los puntos de la lista*/    
+}
+
+header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+header .nav-links a{
+    font-size: 700;
+    color:white;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color:#9c9286ff;
+}
+
+.header .btn button{
+    font: 700;
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background: #9c9286ff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: wheat;
+    color: rgb(138, 138, 110);
+    transform: scale(1.1);
+}
+
+.carousel-inner img {
+    width: 80%; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantiene la relación de aspecto original */
+    margin: 0 auto; /* Centra la imagen en el carrusel */
+    display: block; /* Asegura que las imágenes se comporten correctamente */
+}
+
+.TextIMG1 {
+    margin: auto;
+    width: 100%;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente */
+    background-color: #254c57ff;
+}
+
+.TextIMG1 img {
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+    margin-left: auto; /* Espacio a la izquierda de la imagen */
+}
+
+.text-box1 {
+    padding: 15px; /* Añadir un poco de espacio alrededor del texto */
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+}
+
+.text-box1 h2 {
+    display: block;
+    font-size: 35px; /* Aumenta el tamaño del h2 */
+    color: wheat;
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.text-box1 p {
+    font-size: 20px;
+    color: wheat;
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.TextIMG2 {
+    margin: auto;
+    width: 100%;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente */
+    background-color: wheat; /* Cambia el color de fondo si lo deseas */
+    
+}
+
+.TextIMG2 img {
+    max-width: 400px; /* Ajusta el tamaño máximo de la imagen */
+    margin-left: auto; /* Espacio a la izquierda de la imagen */
+}
+
+.text-box2 {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+    padding: 15px; /* Espacio alrededor del texto */
+}
+
+.text-box2 h2 {
+    font-size: 35px; /* Ajusta el tamaño del h2 */
+    color: #254c57; /* Color del texto */
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.text-box2 p {
+    font-size: 20px; /* Ajusta el tamaño del párrafo */
+    color: #254c57ff; /* Color del texto */
+    margin: 10px 0; /* Márgenes para el párrafo */
+}
+
+.carousel-inner p {
+    font-size: 24px; /* Tamaño del texto del comentario */
+    color: #254c57ff; /* Color del texto */
+}
+
+.carousel-inner small {
+    font-size: 18px; /* Tamaño del texto del autor */
+    color: #254c57ff; /* Color del texto del autor */
+}
+
+#commentCarousel {
+    background-color:rgb(234, 208, 238); /* Cambia este valor por el color que prefieras */
+    padding: 20px; /* Añade un poco de padding para separar el contenido del borde */
+    
+}
+
+.h2Comentarios {
+    text-align: center;
+    font-size: 30px; /* Tamaño del título del comentario */
+    color: #254c57; /* Color del título del comentario */
+    margin-top: 50px; /* Margen superior del título del comentario */
+    margin-bottom: 50px; /* Margen inferior del título del comentario */
+}
+
+footer {
+    background: #003333ff;
+    padding-top: 5px;
+}
+
+.container {
+    width: 80%; /* Ajusta el ancho para centrar mejor el contenido */
+    margin: 0 auto; /* Centra horizontalmente el footer */
+    display: flex;
+    justify-content: space-between; /* Mantiene los bloques separados */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+.footer-content {
+    flex-basis: 33%; /* Cada sección ocupa el mismo espacio */
+    text-align: center; /* Centra el contenido de cada bloque */
+}
+
+.h3f {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: white;
+}
+
+.listFooter1 {
+    padding: 0;
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+.listFooter1 li {
+    margin: 5px 0; /* Añade un pequeño margen para separar los elementos */
+}
+
+.listFooter1 li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s ease;
+}
+
+.listFooter1 li a:hover {
+    color: #9c9286ff; /* Cambia el color al pasar el mouse */
+}
+
+.social-icons {
+    text-align: center;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.social-icons i {
+    color: aliceblue;
+    font-size: 20px; /* Ajusta el tamaño del icono */
+}
+
+.social-icons i:hover {
+    color: #9c9286ff;
+}
+
+.bottom-bar2 {
+    background: #254c57ff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.bottom-bar2 p {
+    color: white;
+    margin: 0;
+    font-size: 15px;
+}
