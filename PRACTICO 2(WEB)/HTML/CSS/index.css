@@ -15,6 +15,7 @@
 
 body{
     background-color:rgb(255, 219, 244) ;
+    overflow-x: hidden;
 }
 
 /*BARRA DE NAVEGACIÓN*/
@@ -87,10 +88,11 @@ header .nav-links a{
 /*1° Carousel*/
 /*INICIO*/
 .carousel-inner img {
-    width: 80%; /* Ajusta el tamaño según sea necesario */
+    width: auto; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la relación de aspecto original */
     margin: 0 auto; /* Centra la imagen en el carrusel */
     display: block; /* Asegura que las imágenes se comporten correctamente */
+
 }
 
 #pc1{
