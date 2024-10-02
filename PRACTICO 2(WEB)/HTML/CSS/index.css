@@ -17,6 +17,8 @@ body{
     background-color:rgb(255, 219, 244) ;
 }
 
+/*BARRA DE NAVEGACIÓN*/
+/*INICIO*/
 .header {
     background-color: #003333ff;
     display: flex;
@@ -80,7 +82,10 @@ header .nav-links a{
     color: rgb(138, 138, 110);
     transform: scale(1.1);
 }
+/*FIN*/
 
+/*1° Carousel*/
+/*INICIO*/
 .carousel-inner img {
     width: 80%; /* Ajusta el tamaño según sea necesario */
     height: auto; /* Mantiene la relación de aspecto original */
@@ -88,6 +93,14 @@ header .nav-links a{
     display: block; /* Asegura que las imágenes se comporten correctamente */
 }
 
+#pc1{
+    font-size: 25px;
+    color: white;
+}
+/*FIN*/
+
+/*1° Imagen con texto*/
+/*INICIO*/
 .TextIMG1 {
     margin: auto;
     width: 100%;
@@ -118,7 +131,10 @@ header .nav-links a{
     color: wheat;
     margin: 0; /* Eliminar márgenes por defecto */
 }
+/*FIN*/
 
+/*2° Imagen con texto*/
+/*INICIO*/
 .TextIMG2 {
     margin: auto;
     width: 100%;
@@ -149,7 +165,35 @@ header .nav-links a{
     color: #254c57ff; /* Color del texto */
     margin: 10px 0; /* Márgenes para el párrafo */
 }
+/*FIN*/
 
+/*3° Imagen con texto*/
+/*INICIO*/
+.image-container {
+    background-color: #254c57;
+    display: flex;
+    justify-content: space-around; /* Espacio entre columnas */
+    margin: 0; /* Espacio superior e inferior */
+}
+
+.image-item {
+    margin: 20px;
+    text-align: center; /* Centra el texto debajo de la imagen */;
+}
+
+.image-item img {
+    width: 100%; /* Ajusta el ancho de la imagen */
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 50%; /* Añade un redondeado al borde */
+}
+
+
+
+/*FIN*/
+
+/*2° Craousel (comentarios)*/
+/*INICIO*/
 .carousel-inner p {
     font-size: 24px; /* Tamaño del texto del comentario */
     color: #254c57ff; /* Color del texto */
@@ -173,7 +217,10 @@ header .nav-links a{
     margin-top: 50px; /* Margen superior del título del comentario */
     margin-bottom: 50px; /* Margen inferior del título del comentario */
 }
+/*FIN*/
 
+/*Pie de página*/
+/*INICIO*/
 footer {
     background: #003333ff;
     padding-top: 5px;
@@ -254,3 +301,4 @@ footer {
     margin: 0;
     font-size: 15px;
 }
+/*FIN*/
